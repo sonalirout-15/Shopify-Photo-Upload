@@ -30,7 +30,7 @@ const FileUpload = () => {
     });
   };
 
-  console.log('MERGE-IMAGES~~~~~~>>>', bgImage + image)
+  // console.log('MERGE-IMAGES~~~~~~>>>', bgImage + image)
 
     return (
         <>
