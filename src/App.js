@@ -1,6 +1,6 @@
 import { Route, Router } from 'react-router-dom';
 import './App.css';
-import Canvas from './Component/Canvas';
+import PhotoUpload from './Component/PhotoUpload';
 import FileUpload from './Component/FileUpload';
 import Footer from './Component/Footer';
 import Header from './Component/Header';
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Header />
-        <Route exact path='' component={Canvas}/>
+        <Route exact path='' component={PhotoUpload}/>
         <Route path='/productstatus' component={ProductStatusPage}/>
       <Footer />
     </>
