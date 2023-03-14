@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import { Route, Router } from 'react-router-dom';
 import './App.css';
+import Canvas from './Component/Canvas';
+import FileUpload from './Component/FileUpload';
+import Footer from './Component/Footer';
+import Header from './Component/Header';
+import ProductStatusPage from './Component/ProductStatusPage';
 
 function App() {
+  // http://localhost:3000?id=5&name="Sejal"
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+        <Route exact path='' component={Canvas}/>
+        <Route path='/productstatus' component={ProductStatusPage}/>
+      <Footer />
+    </>
   );
 }
 

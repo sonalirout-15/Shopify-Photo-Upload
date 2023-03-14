@@ -1,0 +1,140 @@
+
+.cotainerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+ 
+}
+
+.btn-class {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.btns {
+  display: flex;
+  margin: 2%;
+  width: 40%;
+  align-items: center;
+}
+
+.img-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-image: url('../Image/photoImg.png'); 
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+}
+
+.previewProfilePic{
+    padding: 15px;
+    height: 50px; 
+    width: 106px;
+    margin-left: 300px;
+    margin-top: 190px; 
+    position: 'fixed';
+}
+
+.image {
+    position:absolute;
+    bottom:8px;
+    left:10px;
+    width:200px;
+    height:150px;
+}
+
+  .profile_image {
+    padding-left: 500px;
+    padding-top: 30px;
+  }
+
+  label {
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  #file-chosen{
+    margin-left: 0.3rem;
+    font-family: sans-serif;
+  }
+
+  .btn {
+    padding-left: 750px;
+    margin-top: -50px;
+  }
+  
+.custom-btn {
+    background-color: blue;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn2 {
+    padding-left: 1000px;
+    margin-top: -60px;
+  }
+
+  .buynow-btn {
+    background-color:crimson;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 2%;
+  }
+
+  .userPhoto {
+    padding-top: 350px;
+    padding-left: 400px;
+  }
+
+  .uplod-btn {
+    text-align: center;
+  }
+
+  #object2 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
